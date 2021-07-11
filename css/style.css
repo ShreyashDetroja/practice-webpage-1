@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #66bfbf;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+p {
+  color: #40514e;
+  line-height: 2;
+}
+
+hr {
+  width: 3%;
+  border: none;
+  border-top-style: dotted;
+  border-color: #cde2e2;
+  border-width: thick;
+}
+
+/* ------------------------------------- */
+.cse {
+  text-decoration: underline;
+}
+
+.userper {
+  font-weight: normal;
+}
+
+.top-container {
+  background-color: #e4f9f5;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* .middle-container {
+}
+
+.bottom-container {
+} */
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 40px;
+  right: 300px;
+}
+
+.profile-pic {
+  margin-top: 50px;
+}
+
+.my-description {
+  width: 30%;
+  margin: 30px auto 100px auto;
+}
+
+.skills {
+  margin-top: 66px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row:nth-child(odd) {
+  text-align: right;
+}
+
+.titan-shifter-skill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.co-ordinate-skill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin-top: 66px;
+}
+
+.contact-me h3 {
+  margin: 50px auto;
+}
+
+.btn {
+  margin: 50px auto;
+}
+
+.btn a {
+  text-decoration: none;
+  background-color: #11999e;
+  background-image: linear-gradient(#11cdd4, #11999e);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+.btn a:hover {
+  background-image: linear-gradient(#30e3cb, #2bc4ad);
+}
+
+.bottom-container {
+  margin-top: 30px;
+  background-color: #66bfbf;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.bottom-container p {
+  margin: 0;
+  color: #eaf6f6;
+  font-size: small;
+  padding: 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom-container a {
+  text-decoration: none;
+  padding: 50px 30px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bottom-container a:hover {
+  color: #eaf6f6;
+}
